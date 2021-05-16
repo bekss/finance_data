@@ -1,8 +1,0 @@
-{% extends 'base.html' %}
-{% block file %}
-    <h2 style="margin: 20px;">File</h2>
-    {% for i in file_url %}
-        <h1>{{ i.url_file }}</h1>
-        <a href="{{ i.url_file.url }}">{{ i.url_file }}</a>
-    {% endfor %}
-{% endblock %}
