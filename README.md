@@ -1,6 +1,7 @@
 # finance_data
 Automation of data collection and distribution
 # Installation GUIDE 
+
 Web site for data scrapy and return json  
 
 0. python < 3.7
