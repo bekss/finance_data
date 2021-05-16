@@ -1,0 +1,7 @@
+https://query1.finance.yahoo.com/v7/finance/download/PD?period1=1554940800&period2=1620864000&interval=1d&events=history&includeAdjustedClose=true,
+https://query1.finance.yahoo.com/v7/finance/download/ZUO?period1=1523491200&period2=1620864000&interval=1d&events=history&includeAdjustedClose=true,
+https://query1.finance.yahoo.com/v7/finance/download/PINS?period1=1555545600&period2=1620864000&interval=1d&events=history&includeAdjustedClose=true,
+https://query1.finance.yahoo.com/v7/finance/download/ZM?period1=1555545600&period2=1620864000&interval=1d&events=history&includeAdjustedClose=true,
+https://query1.finance.yahoo.com/v7/finance/download/DOCU?period1=1524787200&period2=1620864000&interval=1d&events=history&includeAdjustedClose=true,
+https://query1.finance.yahoo.com/v7/finance/download/CLDR?period1=1493337600&period2=1620864000&interval=1d&events=history&includeAdjustedClose=true,
+https://query1.finance.yahoo.com/v7/finance/download/RUN?period1=1438732800&period2=1620864000&interval=1d&events=history&includeAdjustedClose=true
