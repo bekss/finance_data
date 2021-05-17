@@ -22,7 +22,7 @@ class ContentView(View):
     def post(self, request, *args, **kwargs):
         forms = self.form_class(request.POST, request.FILES)
         if forms.is_valid():
-
+            print(request.FILES['url_file'])
             self.file_read(request.FILES['url_file'])
             return render(request, 'content/success.html', {'file': 'aasf'})
         else:
@@ -46,9 +46,9 @@ class ContentView(View):
                 if not chek_if_table(tab_name):
                     create_tables(tab_name)
                 name_csv = f"{third_url}.csv".lower()
-                commit_psql(name_csv, sq, tab_name)
                 csv = urllib.request.urlretrieve(b, name_csv)
                 path = 'received_csv/' + csv[0]
+                commit_psql(name_csv, sq, tab_name)
                 entry = ReceivedFile.objects.create(url_file=path)
                 entry.save()
 
