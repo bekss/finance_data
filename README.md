@@ -9,6 +9,7 @@ Web site for data scrapy and return json
 2. pip install sync
 3. pipenv shell
 
+
 ### First navigate to this folder:
 ##### finance/finance/selen.py 
 ##### command:  
@@ -17,6 +18,9 @@ Web site for data scrapy and return json
 ##### Folder for url from site is here -- finance/media/company_name
 ##### Folder for Chrome bot is here --  finance/media/chrome_exe/chromedriver.exe
 ##### Version Chrome -- 90.0.4430.212
+### Сhange settings databases here to your own -- finance/finance/settings.py:
+### Change posgresql data here function commit_psql  -- finance/company/request.py 
+
 In Windows Terminal: 
 Then go to your home folder   
 cd finance  
